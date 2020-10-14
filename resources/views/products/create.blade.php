@@ -1,5 +1,3 @@
-{{ $categories }}
-
 <x-app-layout>
     <x-slot name="header">
         <h2 class="font-bold uppercase text-xl text-gray-700">Criando um novo produto</h2>
