@@ -10,7 +10,7 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 })->name('dashboard');
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect('login');
 });
 
 Route::resource('/products', ProductsController::class);
